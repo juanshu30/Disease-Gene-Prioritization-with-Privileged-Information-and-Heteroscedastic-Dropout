@@ -1,6 +1,7 @@
 # Disease-Gene-Prioritization-with-Privileged-Information-and-Heteroscedastic-Dropout
 
-#About
+About
+====
 
 This directory contains the code and resources of the following paper:
 
