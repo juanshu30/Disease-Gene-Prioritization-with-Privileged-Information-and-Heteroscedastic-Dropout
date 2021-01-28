@@ -18,6 +18,25 @@ We introduce LUPI_RGCN algorithm to address the gene disease prioritization prob
 
 Sub-directories
 ====
--[src] contains impelmentation of the rationale model used for the beer review data. main.m is the main function to run NBS2.0.
--[data] contains the pre-processed TCGA data which can be used to reproduce our results.
--[output] contains the KM-plot and clustering assignments.
+- [figures] contains the figures that are used in the paper.
+- [LUPI_RGCN] contains implementation of our model for the disease gene network.
+
+Data
+====
+There are three datasets in the link. 
+genes_phenes.mat
+____
+GeneGene_Hs: The HumanNet gene interaction network of size 12331 x 12331.
+GenePhene: a cell array containing Gene-Phenotype networks of 9 species.
+GP_SPECIES: The names of the species corresponding to the networks in 'GenePhene' variable.
+geneIds: The entrezdb ids of genes, corresponding to the rows of the matrix 'GeneGene_Hs' (or 'GenePhene' matrices).
+pheneIds: a cell array containing OMIM ids for phenotypes of 9 species.
+PhenotypeSimilaritiesLog: Similarity network between OMIM diseases.
+
+Code Usage
+====
+
+
+License
+====
+
