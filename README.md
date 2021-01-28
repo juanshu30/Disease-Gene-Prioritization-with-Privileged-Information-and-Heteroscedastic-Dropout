@@ -42,7 +42,8 @@ There are three datasets in the link.
 
 Code Usage
 ====
-To run the code, you need python (3.7 I used) installed and other packages, such as pytorch(1.5.0), pytorch-geometric(1.6.1), numpy, pandas, matplotlib. 
+- To run the code, you need python (3.7 I used) installed and other packages, such as pytorch(1.5.0), pytorch-geometric(1.6.1), numpy, pandas, matplotlib. 
+- The data is .mat form and in order to run it in python, you need to process the data (processing.py) and then run python LUPI_RGCN.py.
 
 License
 ====
