@@ -42,8 +42,9 @@ There are three datasets in the link.
 
 Code Usage
 ====
-
+To run the code, you need python (3.7 I used) installed and other packages, such as pytorch(1.5.0), pytorch-geometric(1.6.1), numpy, pandas, matplotlib. 
 
 License
 ====
+[1] Li,Y. et al. (2019) Pgcn: Disease gene prioritization by disease and gene embedding through graph convolutional neural networks. bioRxiv.
 
