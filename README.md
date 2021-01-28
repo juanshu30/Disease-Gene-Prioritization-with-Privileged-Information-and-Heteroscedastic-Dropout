@@ -25,7 +25,7 @@ Data
 ====
 There are three datasets in the link. 
 
-## genes_phenes.mat
+### genes_phenes.mat
 
 GeneGene_Hs: The HumanNet gene interaction network of size 12331 x 12331.
 GenePhene: a cell array containing Gene-Phenotype networks of 9 species.
