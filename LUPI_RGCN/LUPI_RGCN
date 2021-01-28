@@ -242,7 +242,5 @@ for epoch in range(1, 701):
     TRAIN = False
     labels, probs = test()
     print("EPOCH:",epoch, train_loss)
-    
-np.savetxt("/scratch/gilbreth/shu30/GraphDropout/RGCN/AISTAT/label_RGCN_GCN",labels)
-np.savetxt("/scratch/gilbreth/shu30/GraphDropout/RGCN/AISTAT/prob_RGCN_GCN",probs)
+
     
