@@ -24,8 +24,9 @@ Sub-directories
 Data
 ====
 There are three datasets in the link. 
-##genes_phenes.mat
-____
+
+## genes_phenes.mat
+
 GeneGene_Hs: The HumanNet gene interaction network of size 12331 x 12331.
 GenePhene: a cell array containing Gene-Phenotype networks of 9 species.
 GP_SPECIES: The names of the species corresponding to the networks in 'GenePhene' variable.
