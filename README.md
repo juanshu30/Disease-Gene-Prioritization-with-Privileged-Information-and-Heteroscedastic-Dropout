@@ -27,12 +27,18 @@ There are three datasets in the link.
 
 ### genes_phenes.mat
 
-GeneGene_Hs: The HumanNet gene interaction network of size 12331 x 12331.
-GenePhene: a cell array containing Gene-Phenotype networks of 9 species.
-GP_SPECIES: The names of the species corresponding to the networks in 'GenePhene' variable.
-geneIds: The entrezdb ids of genes, corresponding to the rows of the matrix 'GeneGene_Hs' (or 'GenePhene' matrices).
-pheneIds: a cell array containing OMIM ids for phenotypes of 9 species.
-PhenotypeSimilaritiesLog: Similarity network between OMIM diseases.
+- GeneGene_Hs: The HumanNet gene interaction network of size 12331 x 12331.
+- GenePhene: a cell array containing Gene-Phenotype networks of 9 species.
+- GP_SPECIES: The names of the species corresponding to the networks in 'GenePhene' variable.
+- geneIds: The entrezdb ids of genes, corresponding to the rows of the matrix 'GeneGene_Hs' (or 'GenePhene' matrices).
+- pheneIds: a cell array containing OMIM ids for phenotypes of 9 species.
+- PhenotypeSimilaritiesLog: Similarity network between OMIM diseases.
+
+### GeneFeatures.mat
+- Microarray expression data - vector of real-valued features for a gene per row (Refer paper for details).
+
+### clinicalfeatures_tfidf.mat
+- OMIM word-count data - term-document matrix for OMIM diseases (Refer paper for details).
 
 Code Usage
 ====
