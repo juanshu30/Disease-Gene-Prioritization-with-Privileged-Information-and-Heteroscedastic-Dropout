@@ -12,4 +12,4 @@ This directory contains the code and resources of the following paper:
 
 Overview of the Model
 ====
-![image]<img width="150" height="150" src="https://github.com/juanshu30/Disease-Gene-Prioritization-with-Privileged-Information-and-Heteroscedastic-Dropout/blob/main/figures/model.png"/>
+<img width="400" height="600" src="https://github.com/juanshu30/Disease-Gene-Prioritization-with-Privileged-Information-and-Heteroscedastic-Dropout/blob/main/figures/model.png"/>
